@@ -10,6 +10,8 @@
        
         echo $hello;
         echo "<br>";
+        echo strlen ($hello);
+        echo "<br>";
         echo strtoupper($hello);
         echo "<br>";
         echo strrev($hello);
