@@ -16,7 +16,7 @@
             }
             public function print () {
                 echo "<h3>"."<u>".$this->name."<br>"."</u>"."</h3>";
-                if ($this->salary>=6000){
+                if ($this->salary>6000){
                     echo "El sou percebut és de: ".$this->salary."€. S'han de pagar impostos."."<br>";
                 } else {
                     echo "El sou percebut és de: ".$this->salary."€. No s'han de pagar impostos."."<br>";
